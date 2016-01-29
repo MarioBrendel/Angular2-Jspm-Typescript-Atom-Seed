@@ -3,6 +3,7 @@
 <head>
   <title>My First Angular2 App</title>
   <script src="node_modules/angular2/bundles/angular2-polyfills.min.js"></script>
+  
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
 </head>
@@ -14,7 +15,6 @@
       System.trace = true
       readyForMainLoad = System.import('systemjs-hot-reloader').then(function(HotReloader){
         hr = new HotReloader.default('http://localhost:9089');
-        console.log("ich runne");
       });
     }
     Promise.resolve(readyForMainLoad).then(function() {

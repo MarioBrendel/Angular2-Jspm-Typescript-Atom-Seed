@@ -24,12 +24,6 @@ System.config({
       "meta": {
         "*.ts": {
           "loader": "ts"
-        },
-        "*.css": {
-          "loader": "css"
-        },
-        "*.html": {
-          "loader": "text"
         }
       }
     }
